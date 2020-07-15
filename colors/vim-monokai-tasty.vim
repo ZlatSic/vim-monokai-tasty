@@ -42,7 +42,7 @@ let s:light_charcoal = { "cterm": 238, "gui": "#2b2b2b" }
 let s:charcoal = { "cterm": 235, "gui": "#262626" }
 
 " Git diff colours.
-let s:danger = { "cterm": 197, "gui": "#ff005f" }
+let s:danger = { "cterm": 124, "gui": "#af0000" }
 let s:olive = { "cterm": 64, "gui": "#5f8700" }
 let s:dark_red = { "cterm": 88, "gui": "#870000" }
 let s:blood_red = { "cterm": 52, "gui": "#5f0000" }
@@ -148,7 +148,7 @@ call Highlight("Structure", s:light_blue, s:none, s:none)
 call Highlight("Function", s:light_green, s:none, s:none)
 
 call Highlight("Constant", s:purple, s:none, s:none)
-call Highlight("Directory", s:purple, s:none, s:none)
+call Highlight("Directory", s:light_grey, s:none, s:none)
 call Highlight("Tag", s:purple, s:none, s:none)
 call Highlight("Boolean", s:purple, s:none, s:none)
 call Highlight("Character", s:purple, s:none, s:none)
